@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" align="center">
+        <table id="header">
+            <tr>
+                <td><button type="button" onclick="location.href = 'home.html';" class="common">Home</button></td>
+                <td><button type="button" onclick="location.href = 'calculator.html';" class="common">Calculator</button></td>
+                <td><button type="button" onclick="location.href = 'signup.html';" id="sign" class="common">Signup</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <div align="center" class="signup">
+        <form><table id="signup" align="center">
+            <tr>
+                <td style="width: 100px;"><label for="username" style="text-align:center;">Enter<br>Username:</label></td>
+                <td style="width: 300px;"><input type="text" name="username" placeholder="Typein Here"><br></td>
+            </tr>
+            <tr>
+                <td style="width: 100px;"><label for="password">Enter<br>Password:</label></td>
+                <td style="width: 300px;"><input type="password" name="password" placeholder="Typein Here"><br></td>
+            </tr>
+            <tr>
+                <td style="width: 100px;"><label for="repassword">Re-enter<br>Password:</label></td>
+                <td style="width: 300px;"><input type="password" name="repassword" placeholder="Typein Here"><br></td>
+            </tr>
+            <tr style="margin-top: 5px;"">
+                <td style="width: 100px;"></td>
+                <td style="width: 300px;"><input type="submit" name="submit" value="SignUp" style="width: 100px;" align="center"></td>
+            </tr>
+        </table></form>
+    </div>
+</body>
+</html>

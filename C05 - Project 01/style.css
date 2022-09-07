@@ -1,0 +1,147 @@
+body {
+    max-width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header{
+    padding: 10px;
+    margin-top: 3%;
+}
+
+#header td {
+    width: 300px;
+    padding: 40px;
+}
+
+.common {
+    background-color: lightsteelblue;
+    border: 2px solid steelblue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button:hover.common{
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 2;
+}
+
+#home {
+    background-color: lightcoral;
+    border: 2px solid darkred;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 2px 0 rgba(0,0,0,0.24);
+}
+
+#calculator {
+    background-color: lightcoral;
+    border: 2px solid darkred;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 2px 0 rgba(0,0,0,0.24);
+}
+
+#sign {
+    background-color: lightcoral;
+    border: 2px solid darkred;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 2px 0 rgba(0,0,0,0.24);
+}
+
+.intro {
+    margin-top: 3%;
+}
+
+.intro p {
+    padding: auto;
+    text-align: left;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calc {
+    margin-top: 3%;
+}
+
+.calc input {
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    font-size: medium;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.calc button {
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: medium;
+}
+
+.calc button:hover {
+    background-color: lightskyblue;
+    box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.14);
+}
+
+.calc tr {
+    height: 50px;
+    padding: 5px;
+}
+
+.signup {
+    margin-top: 3%;
+}
+
+#signup {
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+}
+
+#signup tr {
+    height: 100px;
+}
+
+.signup input {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
